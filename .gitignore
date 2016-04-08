@@ -13,3 +13,6 @@ hs_err_pid*
 
 # Python compiled binaries
 *.pyc
+
+# Ignore any log file
+*.log
