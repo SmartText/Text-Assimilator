@@ -16,3 +16,6 @@ hs_err_pid*
 
 # Ignore any log file
 *.log
+
+# Ignore django database
+*.sqlite3
