@@ -6,6 +6,7 @@
        ["add", "assimilator /Text-Assimilator/assimilator"],
        ["add", "Makefile /Text-Assimilator/Makefile"],
        ["add", "start_server.sh /Text-Assimilator/start_server.sh"],
+       ["add", "requirements.txt /Text-Assimilator/requirements.txt"],
        "cd /Text-Assimilator/ && make all && pip install -r requirements.txt",
        ["purge", "make wget python-pip"]
    ],
