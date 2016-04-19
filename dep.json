@@ -1,7 +1,7 @@
 {
    "maintainer": ["Varun Mittal <varun91@uw.edu>"],
    "commands": [
-       ["install", "make wget python python-pip"],
+       ["install", "make wget python python-pip python-requests python-django"],
        "mkdir -p /Text-Assimilator",
        ["add", "assimilator /Text-Assimilator/assimilator"],
        ["add", "Makefile /Text-Assimilator/Makefile"],
