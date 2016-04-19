@@ -7,7 +7,7 @@
        ["add", "Makefile /Text-Assimilator/Makefile"],
        ["add", "start_server.sh /Text-Assimilator/start_server.sh"],
        ["add", "requirements.txt /Text-Assimilator/requirements.txt"],
-       "cd /Text-Assimilator/ && make all && pip install -r requirements.txt",
+       "cd /Text-Assimilator/ && make all && pip install -r requirements.txt -U",
        ["purge", "make wget python-pip"]
    ],
    "entrypoint": [
