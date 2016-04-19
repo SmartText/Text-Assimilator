@@ -1,0 +1,6 @@
+{
+   "maintainer": "Varun Mittal <vaurn91@uw.edu>",
+   "libs": [
+      "Git/SmartText/Text-Assimilator"
+   ]
+}

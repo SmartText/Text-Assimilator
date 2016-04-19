@@ -1,0 +1,21 @@
+{
+   "maintainer": ["Varun Mittal <varun91@uw.edu>"],
+   "commands": [
+       ["install", "make wget python python-pip"],
+       "mkdir -p /Text-Assimilator",
+       ["add", "assimilator /Text-Assimilator/assimilator"],
+       ["add", "Makefile /Text-Assimilator/Makefile"],
+       ["add", "start_server.sh /Text-Assimilator/start_server.sh"],
+       "cd /Text-Assimilator/ && make all && pip install -r requirements.txt",
+       ["purge", "make wget python-pip"]
+   ],
+   "entrypoint": [
+      "cd /Text-Assimilator && ./start_server.sh"
+   ],
+   "depends": [
+      "openjdk8"
+   ],
+   "expose": [
+      "8080"
+   ]
+}
